@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <header class="header main-header" id="hedaer">
+        <div class="class-top-header top-header-1">
+            <div class="container"><span>فروشگاه آریا استور. محل محصولات پیدا نشدنی</span></div>
+        </div>
+        <div class="class-top-header top-header-2">
+            <div class="container flex justify-between">
+                <div class="right column">
+                    <ul class="contact-list flex">
+                        <li>
+                            <span class="text">تماس با ما:</span>
+                            <a href="tel:02166433168">02166433168</a>
+                            <a href="tel:09010612151">09010612151</a>
+                        </li>
+                        <li>
+                            <span class="icon"><i aria-hidden="true" class="far fa-hand-peace"></i></span>
+                            <span class="text">گارانتی تعویض در صورت بروز مشکل</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="left column">
+                    <ul class="pages-list flex">
+                        <li><a href="https://arya-stores.com/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d9%85%d8%a7/"
+                                class="link">درباره ما</a></li>
+                        <li><a href="https://arya-stores.com/my-account" class="link">حساب کاربری</a></li>
+                        <li><a href="https://arya-stores.com/wishlist/6365F4/" class="link">علاقه مندی ها</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container flex wrap align-center">
+                <div class="logo"><a href="/"><img src="https://arya-stores.com/wp-content/uploads/2022/07/cropped-Arya-stores.webp"
+                    alt=""></a></div>
+
+                <div class="search">
+                    <form action="/" class="search-form">
+                        <div class="input-box">
+                            <input placeholder="جستجو..." class="search-input" type="search" name="s"
+                                title="Search" value="">
+                            <button class="icon search-submit"><i class="fas fa-search"></i></button>
+                            <div class="result-box"></div>
+                        </div>
+                        <input type="hidden" name="post-type" value="product">
+                    </form>
+                </div>
+
+                <div class="login">
+                    <a href="/my-account"><i class="fas fa-sign-in"></i> <span class="text">ورود/ثبت نام</span></a>
+                </div>
+
+                <div class="cart">
+                    <a href="javascript:void()" class="cart-box">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="total">2</div>
+                    </a>
+                    <div class="cart-items d-none"></div>
+                </div>
+
+                <div class="menu-section flex justify-between align-center">
+                    <nav class="right nav-menu">
+                        <div class="toggle"><i class="fas fa-bars"></i></div>
+                        <ul id="menu" class="menu flex">
+                            <li class="menu-item close">
+                                    <i class="fas fa-close"></i>
+                            </li>
+                            <li class="menu-item first-item">
+                                <a href="#">
+                                    <i class="fas fa-bars"></i>
+                                    دسته بندی کالا ها
+                                </a>
+                                <div class="mega-menu-box">
+                                    <ul class="menu-menu">
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-coffee"></i>
+                                                مورد اول
+                                            </a>
+                                            <div class="menucontent">
+                                                <ul class="items flex">
+                                                    <li>
+                                                        <a href="#" class="title">خانه و آشپز خانه</a>
+                                                        <ul>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">من</a></li>
+                                                            <li><a href="#">تو</a></li>
+                                                            <li><a href="#">او</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="title">چاقو و تیزی</a>
+                                                        <ul>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">من</a></li>
+                                                            <li><a href="#">تو</a></li>
+                                                    
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="title">قنادی</a>
+                                                        <ul>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">گرین</a></li>
+                                                            <li><a href="#">او</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-cake"></i>
+                                                مورد دوم
+                                            </a>
+                                            <div class="menucontent">
+                                                <a href="#" class="link-bold">مشاهده 2</a>
+                                                <a href="#" class="link">خانه و آشپزخانه</a>
+                                                <a href="#" class="link">خانه و آشپزخانه</a>
+                                                <a href="#" class="link">خانه و آشپزخانه</a>
+                                                <a href="#" class="link">خانه و آشپزخانه</a>
+                                                <a href="#" class="link-bold">چاقو 2</a>
+                                                <a href="#" class="link">خانه و آشپزخانه</a>
+                                                <a href="#" class="link">خانه و آشپزخانه</a>
+                                                <a href="#" class="link">خانه و آشپزخانه</a>
+                                                <a href="#" class="link-bold">قنادی 2</a>
+                                            </div>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-shirt"></i>
+                                                مورد سوم
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-car"></i>
+                                                مورد چهارم
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-magic"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-dog"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-mobile"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-baby"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-wrench"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-running"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-paint-brush"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-headphones"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                        <li class="mega-menu-item">
+                                            <a href="#">
+                                                <i class="fa fa-book"></i>
+                                                مورد پنجک
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://arya-stores.com/%d9%85%d9%82%d8%a7%d9%84%d8%a7%d8%aa/">
+                                    <i class="fa fa-newspaper"></i>
+                                    مقالات
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://arya-stores.com/%d9%be%d8%b1%d9%81%d8%b1%d9%88%d8%b4-%d8%aa%d8%b1%db%8c%d9%86-%d9%87%d8%a7/">
+                                    <i class="fa fa-fire"></i>
+                                    پرفروش ترین ها
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://arya-stores.com/%d8%aa%d8%ae%d9%81%db%8c%d9%81-%d9%87%d8%a7/">
+                                    <i class="fa fa-percentage"></i>
+                                    تخفیف ها
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="https://arya-stores.com/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/">
+                                    <i class="fa fa-wrench"></i>
+                                    خدمات
+                                </a>
+                            </li>
+                            <li class="menu-item"><a href="https://arya-stores.com/%d8%ae%d8%b1%db%8c%d8%af-%d8%b9%d9%85%d8%af%d9%87/">خرید عمده</a></li>
+                            <li class="menu-item"><a href="https://arya-stores.com/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ae%d8%b1%db%8c%d8%af/">آموزش خرید</a></li>
+                        </ul>
+                    </nav>
+                    <div class="left">
+                        <a class="button"
+                            href="https://arya-stores.com/product-category/%d9%be%db%8c%d8%b4%d9%86%d9%87%d8%a7%d8%af-%d8%a2%d8%b1%db%8c%d8%a7-%d8%a7%d8%b3%d8%aa%d9%88%d8%b1%d8%b2/"><i
+                                class="fas fa-magic"></i> پیشنهاد شگفت انگیز</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
