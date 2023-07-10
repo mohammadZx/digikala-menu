@@ -34,3 +34,4 @@ $('li.mega-menu-item > a').on('click', function(e){
 })
 
 
+// added from desktop
